@@ -249,6 +249,35 @@ body {
   margin: 0 0 30px;
 }
 
+.member-socials-list {
+  list-style: none;
+  padding: 0 0 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.member-social-item {
+  margin: 0 5px;
+}
+
+.member-social-item:first-child {
+  margin-left: 0;
+}
+.member-social-item:last-child {
+  margin-right: 0;
+}
+
+.member-icon {
+  fill: #AFB1B8;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.member-icon:hover {
+  fill: white;
+  background-color: #2196f3;
+}
+
 .h-first {
   width: 696px;
   font-weight: 900;
