@@ -156,9 +156,16 @@ body {
 }
 
 .banner {
-  background: #2f303a;
   display: flex;
   align-items: center;
+  background-color: #2f303a;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) , url("/goit-markup-hw-04/images/BannerBG.jpg");
+  background-repeat:  no-repeat ;
+  background-position: center;
+  background-size: contain ;
+  max-width: 1600px;
+  margin: 0 auto;
+
 }
 
 .banner-items {
@@ -207,6 +214,11 @@ body {
   border-bottom: 1px solid rgba(238, 238, 238, 1);
   border-left: 1px solid rgba(238, 238, 238, 1);
   border-right: 1px solid rgba(238, 238, 238, 1);
+}
+
+.project:hover,
+.project:focus{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .project-img {
@@ -273,7 +285,8 @@ body {
   border-radius: 50%;
 }
 
-.member-icon:hover {
+.member-icon:hover,
+.member-icon:focus {
   fill: white;
   background-color: #2196f3;
 }
@@ -402,7 +415,8 @@ body {
   padding: 16px 32px;
 }
 
-.client-icon:hover {
+.client-icon:hover,
+.client-icon:focus{
   border-color: #2196F3;
 fill: #2196F3;
 cursor: pointer;
@@ -482,7 +496,8 @@ cursor: pointer;
   border-radius: 50%;
 }
 
-.icon:hover {
+.icon:hover,
+.icon:focus {
   background-color: #2196f3;
 }
 
