@@ -177,7 +177,7 @@ body {
 .portfolio-projects-ul {
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 30px;
   margin-top: 34px;
@@ -337,9 +337,14 @@ body {
   padding: 60px 0;
   color: white;
 }
-.footer-container {
-  margin: 0 auto;
-  width: 1170px;
+
+.footer-items {
+  display: flex;
+  align-items: baseline;
+}
+
+.address-footer {
+  padding-right: 70px;
 }
 
 .logo-txt-footer {
@@ -351,6 +356,7 @@ body {
 .address p {
   padding: 20px 0 9px;
   margin: 0;
+  /* display: inline-block; */
 }
 
 .link-footer {
@@ -358,6 +364,43 @@ body {
   color: rgba(255, 255, 255, 0.6);
   line-height: 2;
   letter-spacing: 0.03em;
+}
+
+.socials p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.socials-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 206px;
+height: 44px;
+}
+
+.social-item {
+  margin: 0 5px;
+}
+
+.social-item:first-child {
+  margin-left: 0;
+}
+.social-item:last-child {
+  margin-right: 0;
+}
+
+.icon {
+  fill: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.icon:hover {
+  background-color: #2196f3;
 }
 
 /* END FOOTER  */
