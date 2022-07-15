@@ -30,10 +30,13 @@ body {
 .link-header {
   text-decoration: none;
   color: rgb(33, 33, 33);
+  display: flex;
+  align-items: center;
 }
 .contact-link {
   color: #757575;
 }
+
 
 .link-header:hover,
 .link-header:focus,
@@ -41,6 +44,8 @@ body {
 .link-footer:focus {
   color: var(--main-color);
 }
+
+
 
 .header-container {
   display: flex;
@@ -67,11 +72,21 @@ body {
   list-style: none;
 }
 
+.nav-icon {
+  fill: #757575;
+  margin-right: 10px;
+}
+
 .contact,
 .nav-ul {
   display: flex;
   margin: 0;
   list-style: none;
+}
+
+.contact-item{
+  display: flex;
+  align-items: center;
 }
 
 .contact > .contact-item:not(:last-child) {
@@ -82,16 +97,23 @@ body {
   margin-right: 0px;
 }
 
-.contact .contact-link,
 .nav-ul .nav-link {
   display: block;
-  padding: 10px 10px 10px 50px;
+  padding: 10px;
   text-decoration: none;
 }
 
-.contact-link {
-  padding-left: 50px;
+.mail-a{
+  padding-right: 30px;
+  padding-left: 10px;
 }
+
+.tel-a{
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+
 /* END HEADER -------------------------------------------------- */
 
 .buttons-list {
@@ -378,9 +400,9 @@ body {
   list-style: none;
   padding: 0;
   display: flex;
-  width: 206px;
-height: 44px;
 }
+
+
 
 .social-item {
   margin: 0 5px;
