@@ -15,6 +15,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -50,6 +51,7 @@ body {
 
 .header {
   border-bottom: 1px solid #ececec;
+  padding: 25px 0;
 }
 
 .header,
@@ -57,12 +59,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
 }
 
 .nav-ul {
   width: 261px;
   justify-content: space-around;
+  list-style: none;
 }
 
 .contact,
@@ -95,6 +97,8 @@ body {
 .buttons-list {
   display: flex;
   justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
 .button-item {
@@ -103,7 +107,6 @@ body {
 
 .button {
   padding: 6px 22px;
-  height: 38px;
   background: #f5f4fa;
   border: none;
   border-radius: 4px;
@@ -113,8 +116,7 @@ body {
 
 .main-button {
   background-color: var(--main-color);
-  width: 200px;
-  height: 50px;
+  padding: 10px 41.5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -155,6 +157,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--first-color);
   font-family: Raleway;
+  list-style: none;
+  text-decoration: none;
 }
 
 .link-header {
@@ -177,6 +181,7 @@ body {
   flex-wrap: wrap;
   row-gap: 30px;
   margin-top: 34px;
+  list-style: none;
 }
 
 .project {
@@ -277,6 +282,7 @@ body {
 
 .description-items {
   padding-left: 0;
+  list-style: none;
 }
 
 .specialities-list {
@@ -284,6 +290,7 @@ body {
   justify-content: space-between;
   padding-left: 0;
   margin: 0;
+  list-style: none;
 }
 
 .description-item:last-child,
@@ -307,6 +314,7 @@ body {
   display: flex;
   padding-left: 0;
   justify-content: space-between;
+  list-style: none;
 }
 
 .member {
