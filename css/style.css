@@ -37,15 +37,12 @@ body {
   color: #757575;
 }
 
-
 .link-header:hover,
 .link-header:focus,
 .link-footer:hover,
 .link-footer:focus {
   color: var(--main-color);
 }
-
-
 
 .header-container {
   display: flex;
@@ -84,7 +81,7 @@ body {
   list-style: none;
 }
 
-.contact-item{
+.contact-item {
   display: flex;
   align-items: center;
 }
@@ -103,16 +100,15 @@ body {
   text-decoration: none;
 }
 
-.mail-a{
+.mail-a {
   padding-right: 30px;
   padding-left: 10px;
 }
 
-.tel-a{
+.tel-a {
   padding-right: 0;
   padding-left: 10px;
 }
-
 
 /* END HEADER -------------------------------------------------- */
 
@@ -287,6 +283,15 @@ body {
   padding-bottom: 0;
 }
 
+.description-icon {
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
 .descriptions > ul > li > p {
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -401,8 +406,6 @@ body {
   padding: 0;
   display: flex;
 }
-
-
 
 .social-item {
   margin: 0 5px;
