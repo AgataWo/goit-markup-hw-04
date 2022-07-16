@@ -70,7 +70,6 @@ body {
 }
 
 .nav-icon {
-  fill: #757575;
   margin-right: 10px;
 }
 
@@ -103,11 +102,19 @@ body {
 .mail-a {
   padding-right: 30px;
   padding-left: 10px;
+  fill: #757575;
+}
+.mail-a:hover,
+.mail-a:focus,
+.tel-a:hover,
+.tel-a:focus {
+  fill: var(--main-color);
 }
 
 .tel-a {
   padding-right: 0;
   padding-left: 10px;
+  fill: #757575;
 }
 
 /* END HEADER -------------------------------------------------- */
@@ -159,12 +166,15 @@ body {
   display: flex;
   align-items: center;
   background-color: #2f303a;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) , url("/goit-markup-hw-04/images/BannerBG.jpg");
-  background-repeat:  no-repeat ;
-  background-size: contain ;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("/goit-markup-hw-04/images/BannerBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   max-width: 1600px;
   margin: 0 auto;
-
 }
 
 .banner-items {
@@ -216,8 +226,8 @@ body {
 }
 
 .project:hover,
-.project:focus{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+.project:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .project-img {
@@ -267,8 +277,10 @@ body {
   justify-content: center;
 }
 
+/* ************************************************************************* */
 .member-social-item {
   margin: 0 5px;
+  display: flex;
 }
 
 .member-social-item:first-child {
@@ -278,18 +290,21 @@ body {
   margin-right: 0;
 }
 
-.member-icon {
+.a-member-social-item {
   fill: #afb1b8;
-  background-color: white;
+  display: inline-flex;
+  background: white;
+  text-decoration: none;
   border-radius: 50%;
 }
 
-.member-icon:hover,
-.member-icon:focus {
+.a-member-social-item:hover,
+.a-member-social-item:focus {
   fill: white;
-  background-color: #2196f3;
+  background: #2196f3;
 }
 
+/* ************************************************************************* */
 .h-first {
   width: 696px;
   font-weight: 900;
@@ -416,14 +431,11 @@ body {
 }
 
 .client-icon:hover,
-.client-icon:focus{
-  border-color: #2196F3;
-fill: #2196F3;
-cursor: pointer;
+.client-icon:focus {
+  border-color: #2196f3;
+  fill: #2196f3;
+  cursor: pointer;
 }
-
-
-
 
 /* FOOTER **************************************************************************************************** */
 
@@ -495,6 +507,11 @@ cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+
+/* .ahref{
+
+  fill: white;
+} */
 
 .icon:hover,
 .icon:focus {
