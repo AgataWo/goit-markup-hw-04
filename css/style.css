@@ -502,19 +502,16 @@ body {
   margin-right: 0;
 }
 
-.icon {
+.a-social-item {
+  display: inline-flex;
+  text-decoration: none;
   fill: white;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
-/* .ahref{
-
-  fill: white;
-} */
-
-.icon:hover,
-.icon:focus {
+.a-social-item:hover,
+.a-social-item:focus {
   background-color: #2196f3;
 }
 
