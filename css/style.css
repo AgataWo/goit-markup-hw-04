@@ -64,9 +64,10 @@ body {
 }
 
 .nav-ul {
-  width: 261px;
+  /* width: 261px; */
   justify-content: space-around;
   list-style: none;
+  padding-left: 93px;
 }
 
 .nav-icon {
@@ -91,6 +92,14 @@ body {
 
 .nav-ul > .nav-item:not(:last-child) {
   margin-right: 0px;
+}
+
+.nav-item{
+  padding-right: 46px;
+}
+
+.nav-item:last-child{
+  padding-left: 18px;
 }
 
 .nav-ul .nav-link {
